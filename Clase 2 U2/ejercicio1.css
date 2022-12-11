@@ -1,0 +1,29 @@
+.contenedor {
+	background-color: white;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	border: 4px solid black;
+	box-sizing: border-box;
+}
+
+.item {
+	background-color: red;
+	font-size: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: aliceblue;
+	text-align: center;
+	width: 200px;
+	flex-grow: 1;
+
+}
+
+.item:nth-child(2) {
+	background-color: blue;
+
+}
+
+.item:nth-child(3) {
+	background-color: green;
+}
