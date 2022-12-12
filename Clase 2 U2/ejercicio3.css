@@ -16,9 +16,11 @@
 	text-align: center;
 	width: 200px;
 	height: 100%;
-	text-indent: 0 30%;
-	
+	display: flex;
+justify-content: center;
+align-items: center;
 }
+	
 
 .item:nth-child(2) {
 	background-color: blue;
