@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+</head>
+
+<body>
+    <script>
+        distancia = parseInt(prompt('Ingrese la dsitancia a recorrer:', ''));
+
+        if (distancia <= 1000) { // || OR
+            document.write('Transporte recomendado: A pie.');
+        } else if (distancia >= 1000 && distancia < 10000) {
+            document.write('Transporte recomendado: Bicicleta');
+        } else if (distancia >= 10000 && distancia < 30000) {
+            document.write('Transporte recomendado: Colectivo');
+        } else if (distancia >= 30000 && distancia < 100000) {
+            document.write('Transporte recomendado: Coche');
+        } else if (distancia >= 100000 ) {
+            document.write('Transporte recomendado: Avión');
+        }
+    </script>
+
+<!-- 0 a 1000 metros = pie
+
+1000 a 10000 metros = bicicleta
+
+10000 a 30000 metros = colectivo
+
+30000 a 100000 metros = auto
+
++100000 = avión -->
+
+</body>
+
+</html>

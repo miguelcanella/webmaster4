@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title></title>
+</head>
+
+<body>
+	<script>
+		var a = parseInt(prompt('Ingrese número:', ''));
+		var b = parseInt(prompt('Ingrese número:', ''));
+		var c = parseInt(prompt('Ingrese número:', ''));
+		var d = parseInt(prompt('Ingrese número:', ''));
+		
+	var misNumeros = [a,b,c,d];
+	document.write(misNumeros + " ");	
+	numeromayor = misNumeros[0];
+
+for(i=0; i<misNumeros.length; i++){
+	if(misNumeros[i]>numeromayor){// 
+		numeromayor = misNumeros[i];
+		document.write(" Numero" + numeromayor);
+	}	
+	}
+
+	</script>
+</body>
+
+</html>
